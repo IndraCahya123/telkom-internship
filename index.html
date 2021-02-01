@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telkom Indonesia</title>
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/bd8fa75630.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-danger">
+            <a class="navbar-brand" href="#">
+                <img src="./telkom.jfif" width="100px" style="border-radius: 10px;" alt="Telkom Indonesia">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pages" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars text-light"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="pages">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light m-2" type="button" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light m-2" type="button" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-light m-2" type="button" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <div class="content w-75 m-auto">
+        <div class="content-wrapper">
+            <div class="page-title text-center">
+                <h1>Environmental Data</h1>
+                <p>Data yang tertera merupakan data yang dikirim oleh sensor secara otomatis. <br>
+                    Apabila terdapat anomali pada data segera hubungi penanggung jawab terkait.
+                </p>
+            </div>
+            <div class="data">
+                <div class="laboratorium mb-3">
+                    <div class="form-group">
+                        <label for="laboratorium">Laboratorium</label>
+                        <select class="form-control" id="laboratorium">
+                            <option selected disabled>Pilih laboratorium</option>
+                            <!-- isi option berdasarkan nama lab -->
+                            <option>lab opo ta </option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="home-content">
+                    <form action="">
+                        <div class="form-wrapper d-flex justify-content-between my-5">
+                            <div class="jam jam-8">
+                                <label for="" class="font-weight-bold mb-3">08:00 WIB</label>
+                                <div class="form-group">
+                                    <label for="suhu-8">Suhu</label>
+                                    <input type="text" class="form-control" id="suhu-8" name="suhu_8">
+                                </div>
+                                <div class="form-group">
+                                    <label for="kelembapan-8">Kelembapan</label>
+                                    <input type="text" class="form-control" id="kelembapan-8" name="kelembapan_8">
+                                </div>
+                                <div class="form-group">
+                                    <label for="main-volt-8">Main Volt</label>
+                                    <input type="text" class="form-control" id="main-volt-8" name="main_volt_8">
+                                </div>
+                            </div>
+                            <div class="jam jam-12">
+                                <label for="" class="font-weight-bold mb-3">12:00 WIB</label>
+                                <div class="form-group">
+                                    <label for="suhu-12">Suhu</label>
+                                    <input type="text" class="form-control" id="suhu-12" name="suhu_12">
+                                </div>
+                                <div class="form-group">
+                                    <label for="kelembapan-12">Kelembapan</label>
+                                    <input type="text" class="form-control" id="kelembapan-12" name="kelembapan_12">
+                                </div>
+                                <div class="form-group">
+                                    <label for="main-volt-12">Main Volt</label>
+                                    <input type="text" class="form-control" id="main-volt-12" name="main_volt_12">
+                                </div>
+                            </div>
+                            <div class="jam jam-17">
+                                <label for="" class="font-weight-bold mb-3">17:00 WIB</label>
+                                <div class="form-group">
+                                    <label for="suhu-17">Suhu</label>
+                                    <input type="text" class="form-control" id="suhu-17" name="suhu_17">
+                                </div>
+                                <div class="form-group">
+                                    <label for="kelembapan-17">Kelembapan</label>
+                                    <input type="text" class="form-control" id="kelembapan-17" name="kelembapan_17">
+                                </div>
+                                <div class="form-group">
+                                    <label for="main-volt-17">Main Volt</label>
+                                    <input type="text" class="form-control" id="main-volt-17" name="main_vol_17t">
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-danger w-100" name="selesai">Selesai</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
